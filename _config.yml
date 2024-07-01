@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Clark's Blog
 subtitle: ''
 description: ''
-keywords:
+keywords: 'hello world'
 author: Clark
 language: en
-timezone: ''
+timezone: 'Poalnd/Warsaw'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -102,3 +102,4 @@ theme: async
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
