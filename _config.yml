@@ -9,7 +9,7 @@ description: ''
 keywords: 'hello world'
 author: Clark
 language: en
-timezone: 'Poalnd/Warsaw'
+timezone: 'Europe/Berlin'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
