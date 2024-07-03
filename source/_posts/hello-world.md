@@ -1,40 +1,19 @@
 ---
-title: Hello World
-date: 2022-09-05 00:11:28
-# updated: 2022-09-14
+title: Hello,World!
+date: 2022-08-19 23:42:41
+updated: 2022-08-22
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
 
-### Create a new post
+![nasa](https://s2.loli.net/2023/09/22/6zOYbmePW2nlKqQ.jpg)<center><font color= #a3a0a0>NASA - 50 Years of Spacewalking</font></center>
 
-``` bash
-$ hexo new "My New Post halo"
-```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+“Social media is written for others,  blog is written for myself.” said he.
 
-### Run server
+Once I was wandering through Github to find something interesting or kill boring time. Somehow, I found a personal blog website where I reflected upon many aspects of life, including politics, history, tech troubleshooting and some work stuff.
 
-``` bash
-$ hexo server
-```
+I thought about building a blog website a few times before, but it was eventually discontinued. I asked myself why I needed a website; there have so many social platforms I can use, but why do I need one? Then, I found my answer - “Social media is written for others, blog is written for myself.” then, I made it.
 
-More info: [Server](https://hexo.io/docs/server.html)
+I've always been terrible at writing until now. When I started writing something, I didn't know what to do, especially writing in English, so I decided to do more writing in English. It's slowly changed over time - people cannot learn a skill just by reading about it but take action.
 
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+When I have random musings and thoughts in my head, I will post them out.

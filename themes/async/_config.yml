@@ -106,17 +106,19 @@ banner:
 		enable: false
 		el: .trm-banner
   default:
-    type: img
-    bgurl: /img/banner.png
+    type: video #img、slideshow、video
+    # bgurl: /img/banner.png
+    # bgurl: https://videos.pexels.com/video-files/1851190/1851190-uhd_2560_1440_25fps.mp4
+    bgurl: https://videos.pexels.com/video-files/857251/857251-hd_1620_1080_25fps.mp4
     banner_text: How're ya goin' mate ?
     position: top
     fit: cover
   index:
-    banner_title: 树深时见鹿，<br>溪午不闻钟。
+    banner_title: Ciao!
     banner_text: How're ya goin' mate ?
     video_url: 
   archive:
-    banner_title: 云间连下榻，<br>天上接行杯。
+    banner_title: Comment ça va ?
     banner_text: The article archive
   links:
     banner_title: 莫愁前路无知己，<br>天下谁人不识君。
@@ -130,13 +132,12 @@ banner:
 
 # Sidebar settings
 sidebar:
-  typed_text_prefix: I`m
-  typed_text:  
+  typed_text_prefix: 
+  typed_text: ["你好，这里是章鱼哥"]
+
   info: 
-    - key: sidebar.residence
-      val: Mars
     - key: sidebar.city
-      val: Shanghai
+      val: Wrocław 🇵🇱
     - key: contact
       val: 1234567890
 
@@ -157,36 +158,54 @@ sidebar:
 
 # About page settings
 about:
-	insert: before # before | after | none
+	insert: after # before | after | none
   title: 如果一切都是镜花水月，那就让这万物走向终结。如果一切皆是命中注定，那就让这世界消失殆尽。
-  introduction: 大家好，我是 <strong>Async</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
+  introduction:
+    I am Wenjie(Clark) Hu, currently studying data science at the Univeristy of Wroclaw in Poland. 
+    I am very interested in autonomous driving and AI fields. My experience primarily revolves around Python and its ecosystem of toolkits. 
+    Beyond my tech interests, I find joy in activities like table tennis, hiking, and engaging in cultural exchanges. 
+    I speak Mandarin Chinese🇨🇳 & English 🇬🇧 and am currently learning French 🇫🇷. 
+    If you listen to <font color='orange'>Taylor Swift</font>, we are good friends. 
+    <p align="center"><br /></p><p align="center"> <img src="https://s2.loli.net/2022/08/05/vdC7NzFZYmgtkJn.jpg" style="width:45%; margin-right:2%;"/>
+    <img src="https://s2.loli.net/2023/09/22/PUXIHfVABeq7nKy.jpg" style="width:45%;" /></p>
   blog: 
     <ul class="trm-list">
-      <li>程序：Hexo </li>
-      <li>主题：Hexo-theme-async </li>
+      <li>BSc Computer Science - Maynooth University, Ireland </li>
+      <li>MSc Data Science - University of Wrocław, Poland </li>
     </ul>
   privacy: 
-    本网站不会追踪访客行为，且不要求访客提供任何敏感信息（比如真实姓名、身份证号码、手机号等），因而也不存在任何隐私泄漏问题。访客参与评论，必须遵守法律法规和基本道德规范，文明礼貌。严禁发布任何有关淫秽、反动、暴力、博彩、恐吓、低俗的内容或违法信息，在尊重言论自由的同时请保持和平与理性。请勿对他人采取不友好的评论或其它过激行为。
+    Production Engineer at <u>WeRide</u>, Guangzhou, China [Mar 2021 - Aug 2021] At [WeRide](https://www.weride.ai/en/), I worked as a test-developer responsible for data analysis and high-definition map-related work. There, I touched the top-level of self-driving technology in the world.<br /> 
+    <p align="center"><img src="https://s2.loli.net/2022/08/05/PQcuM6ZqbxJC8wG.jpg" style="width:30%; margin-right:2%;"/> <img src="https://s2.loli.net/2022/08/05/PESytRIedc6qNBw.jpg" alt="Image 2" style="width:30%;" />
+    <img src="https://s2.loli.net/2022/08/05/bM3qVNftOlKrYk2.jpg" alt="Image 3" style="width:30%;" />
+    </p>
+    Test Engineer at <u>MoonX</u>, Shenzhen, China [Dec 2018 - Mar 2021]
+    During my time at [MoonX](https://www.weride.ai/en/muyue-en/), I was responsible for autonomous vehicle road testing and data analysis. I also worked closely with businesses and delivered self-driving vehicles to clients. I got my hands dirty in Cyber-RT, Linux, Python, and Docker and have comprehensive knowledge of autonomous driving systems.
+    <br>
+    <p align="center">
+    <img src="https://s2.loli.net/2022/08/05/nlgXcvJ98KoSwrW.jpg" alt="Image 1" style="width:45%; style="width:45%; margin-right:2%;"/>
+    <img src="https://s2.loli.net/2022/08/05/hV2dcMH9g5GZIlK.jpg" alt="Image 2" style="width:45%;" /></p>
+
+  
 
 # Footer settings
 footer:
   # Hexo link (Powered by Hexo).
   powered:
-    enable: true
+    enable: false
   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
   # https://beian.miit.gov.cn/
   beian:
     enable: false
     icp: 
   # Copyright date
-  copyright_year:
+  copyright_year: 2024
   # 
   live_time:
-    enable: false
+    enable: true
     prefix: footer.tips
-    start_time: 04/10/2022 17:00:00
+    start_time: 07/01/2024 00:00:00
   #
-  custom_text:
+  custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
 
 # Here is a collection of articles related to configuration.
 #### Article configuration start ###
@@ -201,7 +220,7 @@ reward:
 
 # Article table of contents
 toc:
-  enable: false
+  enable: true
   list_number: true
   post_title: true
   max_depth: 3
@@ -280,7 +299,7 @@ comment:
 
 # Theme mode 
 theme: 
-  switch: true 
+  switch: auto 
   default: style-light # style-light style-dark
 
 # Service Worker
@@ -289,7 +308,7 @@ sw: false
 # Post wordcount
 # https://github.com/willin/hexo-wordcount
 wordcount:
-  enable: false
+  enable: true
   count: true
   time: true
 
@@ -321,7 +340,7 @@ swup: false
 datetime_foramt:
   post_card:
     type: date # date || updated
-    date: YY/MM/DD
+    date: YYYY/MM/DD
     time: HH:mm
     cover_date: DD
     cover_date2: YYYY/MM
