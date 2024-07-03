@@ -105,3 +105,8 @@ theme: async
 deploy:
   type: ''
 
+search:
+  path: search.json
+  field: post
+  content: true
+  template: ./search.json
