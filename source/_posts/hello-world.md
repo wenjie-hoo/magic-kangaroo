@@ -2,6 +2,8 @@
 title: Hello,World!
 date: 2022-08-19 23:42:41
 updated: 2022-08-22
+cover: https://s2.loli.net/2023/09/22/6zOYbmePW2nlKqQ.jpg
+categories: thought
 ---
 
 

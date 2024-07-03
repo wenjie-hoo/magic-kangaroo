@@ -19,7 +19,7 @@ favicon:
   icon32: /img/favicon.ico
   apple_touch_icon: 
   webmanifest:
-  visibilitychange: false
+  visibilitychange: true
   hidden: /failure.ico # Displays an icon when not visible
   show_text: favicon.show_text
   hide_text: favicon.hide_text
@@ -95,6 +95,8 @@ top_bars:
     url: /
   - title: menu.archives
     url: /archives/
+  - title: Categories
+    url: /categories/
   - title: menu.about
     url: /about/
 
@@ -127,7 +129,7 @@ banner:
     banner_title: 醉后不知天在水，<br>满船清梦压星河。
     banner_text: The magic tree hole
   about:
-    banner_title: 醉后不知天在水，<br>满船清梦压星河。
+    banner_title: 你说得对，<br>章鱼哥。
     banner_text: About me
 
 # Sidebar settings
@@ -140,7 +142,6 @@ sidebar:
       val: Wrocław 🇵🇱
     - key: contact
       val: 1234567890
-
       
   social:
     - name: Github
@@ -152,38 +153,37 @@ sidebar:
     - name: Instagram
       icon: fab fa-instagram
       url: https://www.instagram.com/clark_hoo/
-    - name: snapchat
-      icon: fab fa-snapchat
-      url: https://t.snapchat.com/WJKj62PW
-
+    - name: wechat
+      icon: fab fa-weixin
+      url: https://s2.loli.net/2023/09/22/Ll743X5Pxp68sFd.jpg
 # About page settings
 about:
-	insert: after # before | after | none
-  title: 如果一切都是镜花水月，那就让这万物走向终结。如果一切皆是命中注定，那就让这世界消失殆尽。
+	insert: before # before | after | none
+  title: <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5H7ixXZfsNMGbIE5OBSpcb?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   introduction:
-    I am Wenjie(Clark) Hu, currently studying data science at the Univeristy of Wroclaw in Poland. 
-    I am very interested in autonomous driving and AI fields. My experience primarily revolves around Python and its ecosystem of toolkits. 
-    Beyond my tech interests, I find joy in activities like table tennis, hiking, and engaging in cultural exchanges. 
-    I speak Mandarin Chinese🇨🇳 & English 🇬🇧 and am currently learning French 🇫🇷. 
-    If you listen to <font color='orange'>Taylor Swift</font>, we are good friends. 
-    <p align="center"><br /></p><p align="center"> <img src="https://s2.loli.net/2022/08/05/vdC7NzFZYmgtkJn.jpg" style="width:45%; margin-right:2%;"/>
-    <img src="https://s2.loli.net/2023/09/22/PUXIHfVABeq7nKy.jpg" style="width:45%;" /></p>
+    # I am Wenjie(Clark) Hu, currently studying data science at the Univeristy of Wroclaw in Poland. 
+    # I am very interested in autonomous driving and AI fields. My experience primarily revolves around Python and its ecosystem of toolkits. 
+    # Beyond my tech interests, I find joy in activities like table tennis, hiking, and engaging in cultural exchanges. 
+    # I speak Mandarin Chinese🇨🇳 & English 🇬🇧 and am currently learning French 🇫🇷. 
+    # If you listen to <font color='orange'>Taylor Swift</font>, we are good friends. 
+    # <p align="center"><br /></p><p align="center"> <img src="https://s2.loli.net/2022/08/05/vdC7NzFZYmgtkJn.jpg" style="width:45%; margin-right:2%;"/>
+    # <img src="https://s2.loli.net/2023/09/22/PUXIHfVABeq7nKy.jpg" style="width:45%;" /></p>
   blog: 
-    <ul class="trm-list">
-      <li>BSc Computer Science - Maynooth University, Ireland </li>
-      <li>MSc Data Science - University of Wrocław, Poland </li>
-    </ul>
+    # <ul class="trm-list">
+    #   <li>BSc Computer Science - Maynooth University, Ireland </li>
+    #   <li>MSc Data Science - University of Wrocław, Poland </li>
+    # </ul>
   privacy: 
-    Production Engineer at <u>WeRide</u>, Guangzhou, China [Mar 2021 - Aug 2021] At [WeRide](https://www.weride.ai/en/), I worked as a test-developer responsible for data analysis and high-definition map-related work. There, I touched the top-level of self-driving technology in the world.<br /> 
-    <p align="center"><img src="https://s2.loli.net/2022/08/05/PQcuM6ZqbxJC8wG.jpg" style="width:30%; margin-right:2%;"/> <img src="https://s2.loli.net/2022/08/05/PESytRIedc6qNBw.jpg" alt="Image 2" style="width:30%;" />
-    <img src="https://s2.loli.net/2022/08/05/bM3qVNftOlKrYk2.jpg" alt="Image 3" style="width:30%;" />
-    </p>
-    Test Engineer at <u>MoonX</u>, Shenzhen, China [Dec 2018 - Mar 2021]
-    During my time at [MoonX](https://www.weride.ai/en/muyue-en/), I was responsible for autonomous vehicle road testing and data analysis. I also worked closely with businesses and delivered self-driving vehicles to clients. I got my hands dirty in Cyber-RT, Linux, Python, and Docker and have comprehensive knowledge of autonomous driving systems.
-    <br>
-    <p align="center">
-    <img src="https://s2.loli.net/2022/08/05/nlgXcvJ98KoSwrW.jpg" alt="Image 1" style="width:45%; style="width:45%; margin-right:2%;"/>
-    <img src="https://s2.loli.net/2022/08/05/hV2dcMH9g5GZIlK.jpg" alt="Image 2" style="width:45%;" /></p>
+    # Production Engineer at <u>WeRide</u>, Guangzhou, China [Mar 2021 - Aug 2021] At [WeRide](https://www.weride.ai/en/), I worked as a test-developer responsible for data analysis and high-definition map-related work. There, I touched the top-level of self-driving technology in the world.<br /> 
+    # <p align="center"><img src="https://s2.loli.net/2022/08/05/PQcuM6ZqbxJC8wG.jpg" style="width:30%; margin-right:2%;"/> <img src="https://s2.loli.net/2022/08/05/PESytRIedc6qNBw.jpg" alt="Image 2" style="width:30%;" />
+    # <img src="https://s2.loli.net/2022/08/05/bM3qVNftOlKrYk2.jpg" alt="Image 3" style="width:30%;" />
+    # </p>
+    # Test Engineer at <u>MoonX</u>, Shenzhen, China [Dec 2018 - Mar 2021]
+    # During my time at [MoonX](https://www.weride.ai/en/muyue-en/), I was responsible for autonomous vehicle road testing and data analysis. I also worked closely with businesses and delivered self-driving vehicles to clients. I got my hands dirty in Cyber-RT, Linux, Python, and Docker and have comprehensive knowledge of autonomous driving systems.
+    # <br>
+    # <p align="center">
+    # <img src="https://s2.loli.net/2022/08/05/nlgXcvJ98KoSwrW.jpg" alt="Image 1" style="width:45%; style="width:45%; margin-right:2%;"/>
+    # <img src="https://s2.loli.net/2022/08/05/hV2dcMH9g5GZIlK.jpg" alt="Image 2" style="width:45%;" /></p>
 
   
 
@@ -241,10 +241,9 @@ creative_commons:
   language: deed.zh
   post: false
   clipboard: false
-
 # Customize the cover image
 cover:
-  default: /img/block.jpg
+  default: img/block.jpg
   type: img # img || date || random
 
 # The previous and the next article
@@ -299,7 +298,7 @@ comment:
 
 # Theme mode 
 theme: 
-  switch: auto 
+  switch: true 
   default: style-light # style-light style-dark
 
 # Service Worker
@@ -324,8 +323,8 @@ katex:
 
 # Blog search
 search:
-  enable: false
-  type: engine #local engine
+  enable: true
+  type: local #local /engine
   href: 'https://www.google.com/search?q=site:'
   # href: "https://www.baidu.com/s?wd=site:"
   # href: "https://www.bing.com/search?q=site:"
@@ -346,23 +345,23 @@ datetime_foramt:
     cover_date2: YYYY/MM
   post_info:
     type: date
-    date: MM/DD
+    date: YYYY/MM/DD
     time: HH:mm
   archive:
     type: date
-    date: MM/DD
+    date: YYYY/MM/DD
     time: HH:mm
 
 # Home page category card configuration
 categorie_card:
   enable: true
-  len: 2
-  list:
+  len: 4
+  list: ['travel','thought']
 
 # Lower right button
 rightside:
   readmode: true
-  aside: false
+  aside: true
 
 # Replace Broken Images 
 error_img:
