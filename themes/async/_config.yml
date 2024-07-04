@@ -103,7 +103,7 @@ top_bars:
 
 # Banner settings
 banner:
-  use_cover: false
+  use_cover: true
 	danmu: 
 		enable: false
 		el: .trm-banner
@@ -134,14 +134,14 @@ banner:
 
 # Sidebar settings
 sidebar:
-  typed_text_prefix: 
-  typed_text: ["你好，这里是章鱼哥"]
+  typed_text_prefix: 你好，
+  typed_text: ["这里是章鱼哥"]
 
   info: 
     - key: sidebar.city
       val: Wrocław 🇵🇱
-    - key: contact
-      val: 1234567890
+    - key: Job
+      val: FBI
       
   social:
     - name: Github
@@ -205,7 +205,7 @@ footer:
     prefix: footer.tips
     start_time: 07/01/2024 00:00:00
   #
-  custom_text: Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
+  custom_text: #Hosted by <a href="https://github.com" rel="noopener" target="_blank">Github Pages</a>
 
 # Here is a collection of articles related to configuration.
 #### Article configuration start ###
