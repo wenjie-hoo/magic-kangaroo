@@ -20,9 +20,11 @@ favicon:
   apple_touch_icon: 
   webmanifest:
   visibilitychange: true
-  hidden: /failure.ico # Displays an icon when not visible
+  # hidden: /failure.ico # Displays an icon when not visible
+  hidden: /img/favicon.png
   show_text: favicon.show_text
   hide_text: favicon.hide_text
+
 
 # Theme resource files or plug-ins
 assets:
@@ -105,7 +107,8 @@ top_bars:
         url: /categories/travel/
       - title: thought
         url: /categories/thought/
-
+  - title: Gallery
+    url: /gallery/
   - title: menu.about
     url: /about/
 
