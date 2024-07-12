@@ -107,6 +107,8 @@ top_bars:
         url: /categories/travel/
       - title: thought
         url: /categories/thought/
+      - title: math
+        url: /categories/math/
   - title: Gallery
     url: /gallery/
   - title: menu.about
