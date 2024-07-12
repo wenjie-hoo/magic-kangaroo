@@ -313,7 +313,7 @@ comment:
 # Theme mode 
 theme: 
   switch: true 
-  default: style-light # style-light style-dark
+  default: auto # style-light style-dark
 
 # Service Worker
 sw: false
