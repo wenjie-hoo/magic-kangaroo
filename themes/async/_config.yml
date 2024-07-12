@@ -140,7 +140,7 @@ banner:
     banner_title: 莫愁前路无知己，<br>天下谁人不识君。
     banner_text: A link to a friend's website
   comment:
-    banner_title: 醉后不知天在水，<br>满船清梦压星河。
+    banner_title: 你好，<br> 今天的天氣怎麼樣。
     banner_text: The magic tree hole
   about:
     banner_title: 你说得对，<br>章鱼哥。
@@ -149,7 +149,7 @@ banner:
 # Sidebar settings
 sidebar:
   typed_text_prefix: 你好，
-  typed_text: ["这里是章鱼哥"]
+  typed_text: ["今天的天氣怎麼樣？"]
 
   info: 
     - key: sidebar.city
@@ -263,7 +263,7 @@ cover:
 # The previous and the next article
 post_pagination: 
   enable: true 
-  type: large # large || small
+  type: small # large || small
 
 # img loading="lazy"
 lazyload:
@@ -369,7 +369,7 @@ datetime_foramt:
 # Home page category card configuration
 categorie_card:
   enable: true
-  len: 4
+  len: 6
   list: ['travel','thought']
 
 # Lower right button
