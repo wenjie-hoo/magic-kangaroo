@@ -14,5 +14,7 @@ These daydreams have persisted, and I find myself thinking about her unintention
 
 I enjoy meeting her and chatting with her. Even though sometimes we don't understand what the other is saying, there's a certain quality she possesses that makes me interested. Perhaps now isn't the best time to tell her how I feel, but I will. I'll say, "I have a crush on you, and I want to know you more."
 
-I get lost in your eyes.
+I get lost in your eyes.  
+  <br />  
 
+<p style="color:gray">She found this page, and I said I have a crush on her. XD❤️</p>
