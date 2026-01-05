@@ -7,7 +7,7 @@ layout: about
 
 ***
 
-Bonjour👋 I am Wenjie(Clark) Hu, currently studying data science at the Univeristy of Wroclaw in Poland. I am very interested in autonomous driving and AI fields. My experience primarily revolves around Python and its ecosystem of toolkits. Beyond my tech interests, I find joy in activities like table tennis, hiking, and engaging in cultural exchanges. I speak Mandarin Chinese🇨🇳 & English 🇬🇧 and am currently learning French 🇫🇷. If you listen to <span style="color: orange;"> Taylor Swift</span>, we are good friends.
+Hallo 👋 I’m Wenjie (Clark) Hu, an ADAS engineer with a background in data science, graduated from the University of Wrocław in Poland. I am deeply interested in autonomous driving and artificial intelligence, with hands-on experience primarily in Python and its ecosystem. Beyond technology, I enjoy table tennis, hiking, and cultural exchange. I speak Mandarin Chinese 🇨🇳 and English 🇬🇧—and if you listen to <span style="color: orange;">Taylor Swift</span>, we’ll definitely get along.
 <br>
 <table align="center">
 	<tr>
@@ -27,11 +27,33 @@ Bonjour👋 I am Wenjie(Clark) Hu, currently studying data science at the Univer
 
 ### Work
 ***
+  <p><span style="font-weight:bold;">Test Engineer at Joynext</span>
+  <span style="float:right; font-weight:bold;">Wrocław, Poland[09.2024 - 09.2025]</span></p>
+<br>
+At <a href="https://www.joynext.com/en/" style="color: blue;">Joynext</a>, I worked as a test engineer, developing a video anonymization pipeline for ADAS data that achieved over 95% detection accuracy for faces and license plates, leading the development of a fleet management system to streamline vehicle road testing and data collection, and planning and executing vehicle road tests for pre-homologation and validation.
+<br>
+<table align="center">
+	<tr>
+		<td>
+			<center>
+				<img src="https://s2.loli.net/2026/01/05/pZO2AHGjJFQk75S.jpg" width="200px"  />
+			</center>
+		</td>
+		<td>
+			<center>
+				<img src="https://s2.loli.net/2026/01/05/fHiXRklFeKosL25.jpg" width="200px" />
+			</center>
+		</td>
+	</tr>
+</table>
+
+
+***
 
   <p><span style="font-weight:bold;">Production Engineer at WeRide</span>
-  <span style="float:right; font-weight:bold;">Guangzhou,China[03.2021 - 08.2021]</span></p>
+  <span style="float:right; font-weight:bold;">Guangzhou,China[08.2019 - 08.2021]</span></p>
 <br>
-At <a href="https://www.weride.ai/en/" style="color: blue;">WeRide</a>, I worked as a test-developer responsible for data analysis and high-definition map related work. There, I touched the top-level of self-driving technology in the world.
+At <a href="https://www.weride.ai/en/" style="color: blue;">WeRide</a>, I worked as a test-developer, focusing on data analysis and high-definition mapping. There, I engaged with cutting-edge self-driving technology and gained hands-on experience in autonomous vehicle road testing and data analysis. I also collaborated closely with business teams, delivering self-driving vehicles to clients, which allowed me to develop a comprehensive understanding of autonomous driving systems.
 <br>
 
 <table align="center">
@@ -55,29 +77,7 @@ At <a href="https://www.weride.ai/en/" style="color: blue;">WeRide</a>, I worked
 	</tr>
 </table>
 
-***
 
-  <p><span style="font-weight:bold;">Test Engineer at MoonX</span>
-  <span style="float:right; font-weight:bold;">Shenzhen, China[12.2018 - 03.2021]</span></p>
-<br>
-During my time at MoonX, I was responsible for autonomous vehicle road testing and data analysis. I also worked closely with businesses and delivered self-driving vehicles to clients. I got my hands dirty in Cyber-RT, Linux, Python, and Docker and have comprehensive knowledge of autonomous driving systems.
-<br>
-
-<table align="center">
-	<tr>
-		<td>
-			<center>
-				<img src="https://s2.loli.net/2022/08/05/nlgXcvJ98KoSwrW.jpg" width="200px"  />
-			</center>
-		</td>
-		<td>
-			<center>
-				<img src="https://s2.loli.net/2022/08/05/hV2dcMH9g5GZIlK.jpg" width="200px" />
-			</center>
-		</td>
-	</tr>
-</table>
-<br>
 
 ### Education
 ***
